@@ -119,7 +119,7 @@ def startprint():
                            {colorama.Fore.WHITE}Type {colorama.Fore.RED}{prefix}help {colorama.Fore.WHITE} to see commands
              {colorama.Fore.WHITE}─────────────────────────{colorama.Fore.RED}─────────────────────────
     ''' + Fore.WHITE)
-    ctypes.windll.kernel32.SetConsoleTitleW(f'Reluctant Selfbot | Version 1.9  | Logged As: {Reluctant.user.name}')
+    ctypes.windll.kernel32.SetConsoleTitleW(f'Reluctant Selfbot by XlandeR | Version 1.9  | Logged As: {Reluctant.user.name}')
 
 def Clear():
     os.system('cls')
@@ -598,7 +598,7 @@ async def tokenfuck(ctx, tokentofrick=None, *, nukemsg=f"Nuked By Reluctant Self
         print(f"{Fore.RED}[-] {Fore.WHITE}This Command Only Works In Private Servers" + Fore.RESET)
 
     else:
-        embed = discord.Embed(title="Reluctant Selfbot - Confirm",description=f"Made By Major",color=0xff0000)
+        embed = discord.Embed(title="Reluctant Selfbot - Confirm",description=f"Made By XlandeR",color=0xff0000)
         embed.set_image(url="https://cdn.discordapp.com/attachments/857072774026887171/872558823733350450/standard_2.gif")
         embed.set_footer(text="Token Fuck")
         message = await ctx.send(embed=embed)
